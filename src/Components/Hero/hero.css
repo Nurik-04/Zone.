@@ -1,30 +1,31 @@
-.hero__container{
-    /* height: 500px; */
-    padding-top: 80px;
-    
-}
-.hero__container{
+.hero__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 90px;
-    padding: 0 30px;
+    padding: 0 50px;
+    position: relative;
+    padding-bottom: 150px;
 }
-.hero__box{
-    width: 546px;
+
+.hero__box {
+    width: 550px;
     height: 348px;
+    font-family: "DM Sans", sans-serif;
 }
-.hero__title{
+
+.hero__title {
     font-family: DM Sans;
     font-weight: 700;
     font-size: 58px;
     line-height: 84px;
-    letter-spacing: 2%; 
+    letter-spacing: 2%;
     /* 1. Gradient ranglarini belgilaymiz */
     background: linear-gradient(to right, #2b59ff, #bb2bff, #ff2bad);
 
     /* 2. Gradientni matn shakliga qirqib olamiz */
-    -webkit-background-clip: text; /* Chrome, Safari va yangi brauzerlar uchun */
+    -webkit-background-clip: text;
+    /* Chrome, Safari va yangi brauzerlar uchun */
     background-clip: text;
 
     /* 3. Matnning asl rangini shaffof (transparent) qilamiz */
@@ -33,7 +34,8 @@
     color: transparent;
     margin-bottom: 29px;
 }
-.hero__text{
+
+.hero__text {
     font-family: DM Sans;
     font-weight: 500;
     font-size: 15px;
@@ -42,16 +44,17 @@
     box-shadow: 0px 4px 4px 0px #00000012;
     margin-bottom: 31px;
 }
-.hero__mini__box{
+
+.hero__mini__box {
     display: flex;
     align-items: center;
     text-align: center;
-    /* justify-content: center; */
     gap: 40px;
     width: 350px;
     color: #F9FAFB;
 }
-.hero__btn{
+
+.hero__btn {
     width: 152px;
     height: 42px;
     border-radius: 8px;
@@ -65,10 +68,12 @@
     font-size: 16px;
     display: inline-block;
 }
+
 .hero__btn:hover {
     transform: scale(1.1) translateY(-3px);
 }
-.hero__link{
+
+.hero__link {
     width: 151px;
     height: 36px;
     display: flex;
@@ -76,9 +81,10 @@
     color: #F9FAFB;
     padding: 10px 0;
     position: relative;
-    
+
 }
-.hero__icon{
+
+.hero__icon {
     font-size: 20px;
     width: 36px;
     height: 36px;
@@ -87,32 +93,105 @@
     right: -10px;
     top: 0;
 }
-.hero__img{
-    /* border: 1px solid red; */
-    width:  600px;
-    height: 600px;
-}
 
-
-/* .hero__efekts{
-    position: relative;
+.hero__img__box {
+    width: 605px;
+    height: 605px;
     display: flex;
-    
-}
-.hero__efekts{
-    backdrop-filter: blur(200px);
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    border: 1px solid red;
-}
-.hero__efekts__mini{
-    width:  361px;
-    height: 302px;
-    background: rgba(100, 100, 255, 0.7);
-    box-shadow: 0 0 100px 50px rgba(100, 100, 255, 0.7);
-    backdrop-filter: blur(200px);
+    align-items: center;
+    justify-content: center;
+    border-left:  5px dotted #2563EB;
+    border-right: 5px dotted #D946EF;
+    border-width: thick;
     border-radius: 50%;
-} */
+    animation: rotateAnim 10s linear infinite;
+}
 
+.hero__img {
+    /* border: 3px inset  #D946EF ; */
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    animation: rotateImg 10s linear infinite;
+}
+
+.hero__efekts {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    z-index: -10;
+    width: 100%;
+    height: 302px;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.hero__efekts__img {
+    width: 300px;
+    height: 300px;
+    backdrop-filter: blur(200px);
+    opacity: 0.7;
+    animation: floatScale 5s infinite ease-in-out;
+}
+
+.hero__efekts__img:nth-child(1) {
+    animation-delay: 0s;
+    /* background: white; */
+}
+
+.hero__efekts__img:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.hero__efekts__img:nth-child(3) {
+    animation-delay: 3s;
+}
+
+@keyframes floatScale {
+    0% {
+        transform: translateY(0px) scale(1.1);
+        opacity: 0.5;
+    }
+
+    25% {
+        transform: translateY(-30px) scale(1.2);
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translateY(0px) scale(1.3);
+        opacity: 1;
+    }
+
+    75% {
+        transform: translateY(30px) scale(1.2);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateY(0px) scale(1);
+        opacity: 0.5;
+    }
+}
+
+@keyframes rotateAnim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateImg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}

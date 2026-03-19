@@ -6,5 +6,11 @@
         "pricing": "Narxlar",
         "blog": "Blog",
         "contact": "Biz bilan bog'lanish"
+    },
+    "hero": {
+        "title": "Virtual Reality biznes yechimlari",
+        "text": "Biz biznes konsalting sohasida 15 yildan ortiq tajribaga egamiz. Biznes konsalting va sun'iy intellekt sohasida 15 yildan ortiq tajribaga egamiz.",
+        "btn": "Bizga qo'shiling",
+        "watch": "Videoni ko'rish"
     }
 }

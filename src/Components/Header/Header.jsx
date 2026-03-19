@@ -1,5 +1,5 @@
+import logo from '../Images/logo.svg'
 import React from 'react'
-import logo from '../Images/Logo.svg';
 // import logo0 from '../Images/logo0.svg';
 import { useTranslation } from 'react-i18next';
 import "./header.css"

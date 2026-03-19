@@ -6,5 +6,11 @@
         "pricing": "Pricing",
         "blog": "Blog",
         "contact": "Contact Us"
+    },
+    "hero": {
+        "title": "Virtual Reality Business Solutions",
+        "text": "We have over 15 year experience in business consulting arena. We have over 15 year experience in business consulting arena and artificial intelligence.",
+        "btn": "Join Us",
+        "watch": "Watch video"
     }
 }
