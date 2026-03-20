@@ -1,8 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import uzT from "../public/Locals/uz.json";
-import ruT from "../public/Locals/ru.json";
-import enT from "../public/Locals/en.json";
+import uzT from "./Locals/uz.json";
+import ruT from "./Locals/ru.json";
+import enT from "./Locals/en.json";
 
 i18n
 
