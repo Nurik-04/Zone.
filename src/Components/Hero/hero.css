@@ -131,7 +131,7 @@
 .hero__efekts__img {
     width: 300px;
     height: 300px;
-    backdrop-filter: blur(200px);
+    filter: saturate(200%);
     opacity: 0.7;
     animation: floatScale 5s infinite ease-in-out;
 }

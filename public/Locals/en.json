@@ -12,5 +12,14 @@
         "text": "We have over 15 year experience in business consulting arena. We have over 15 year experience in business consulting arena and artificial intelligence.",
         "btn": "Join Us",
         "watch": "Watch video"
+    },
+    "service": {
+        "title": "Our Service",
+        "text": "We turn information into actionable insights. We work to understand your issues and are driven to ask better questions in the pursuit of making work.",
+        "items": {
+            "order": "Order Management",
+            "lorem": "Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+            "more": "Learn more"
+        }
     }
 }

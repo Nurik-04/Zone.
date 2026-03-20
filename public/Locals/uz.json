@@ -12,5 +12,14 @@
         "text": "Biz biznes konsalting sohasida 15 yildan ortiq tajribaga egamiz. Biznes konsalting va sun'iy intellekt sohasida 15 yildan ortiq tajribaga egamiz.",
         "btn": "Bizga qo'shiling",
         "watch": "Videoni ko'rish"
+    },
+    "service": {
+        "title": "Bizning Xizmatlar",
+        "text": "Biz ma'lumotlarni amaliy natijalarga aylantiramiz. Muammolaringizni tushunish uchun ishlaymiz va yaxshiroq natijaga erishish uchun to'g'ri savollar beramiz.",
+        "items": {
+            "order": "Buyurtmalarni boshqarish",
+            "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
+            "more": "Batafsil"
+        }
     }
 }
