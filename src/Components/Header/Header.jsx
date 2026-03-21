@@ -1,4 +1,4 @@
-import logo from "../Images/logo.svg";
+import logo from "../Images/logo.png";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./header.css";
