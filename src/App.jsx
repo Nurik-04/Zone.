@@ -1,23 +1,26 @@
-import React from 'react'
-import './App.css'
-import Header from './Components/Header/Header'
-import Hero from './Components/Hero/Hero'
-import Service from './Components/Service/Service'
-import Project from './Components/Project/Project'
+import React from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Hero from "./Components/Hero/Hero";
+import Service from "./Components/Service/Service";
+import Projects from "./Components/Project/Project";
+import Team from "./Components/Team/Team";
 
-import Footer from './Components/Footer/Footer'
-
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Hero/>
-      <Service/>
-      <Project/>
-      <Footer/>
+      <Header />
+      <main>
+        <Hero />
+        <Service />
+        <Projects />
+        <Team />
+      </main>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -8,7 +8,7 @@
 }
 body{
   background: #111827;
-  overflow-x: hidden; /*  skrollni o'chiradi */
+  overflow-x: hidden;    /*skrollni o'chiradi */
   max-width: 100%;
 }
 .container{

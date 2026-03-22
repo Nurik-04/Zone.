@@ -21,5 +21,10 @@
             "lorem": "Лорем ипсум долор сит амет, консектетур адиписцинг элит. Сед квис аккумсан ниси Ут ут фелис конгуе нисл хендрерит коммодо.",
             "more": "Узнать больше"
         }
+    },
+    "project": {
+        "title": "Мы выполняем каждый проект с особой тщательностью, исходя из потребностей клиента",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. Мы стремимся предоставлять лучшие и современные решения для наших клиентов.",
+        "readMore": "Читать далее"
     }
 }

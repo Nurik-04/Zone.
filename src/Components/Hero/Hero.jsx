@@ -19,7 +19,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <main>
+    <div>
       <div className="container">
         <div className="hero__container">
           <div className="hero__box">
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

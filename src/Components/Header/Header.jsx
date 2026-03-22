@@ -10,7 +10,7 @@ const Header = () => {
     i18n.changeLanguage(selectedLanguage);
   };
   return (
-    <header>
+    <header className="header">
       <div className="container">
         <nav className="header__nav">
           <a className="header__title">

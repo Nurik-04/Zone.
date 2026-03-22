@@ -21,5 +21,10 @@
             "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.",
             "more": "Batafsil"
         }
+    },
+    "project": {
+        "title": "Biz har bir loyihani mijoz ehtiyojiga qarab alohida e'tibor bilan bajaramiz",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam poshuerere tortor, sit amet convallis nuncoe scelerisque in. Biz mijozlarimiz uchun eng sifatli va zamonaviy yechimlarni taqdim etishga intilamiz.",
+        "readMore": "Batafsil o'qish"
     }
 }

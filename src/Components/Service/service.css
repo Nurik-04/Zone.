@@ -39,7 +39,7 @@
     width: 370px;
     height: 336px;
     border-radius: 34px;
-    border: 1px solid gainsboro;
+    
     border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
     background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
     display: flex;
@@ -47,6 +47,7 @@
     align-items: center;
     padding: 37px 23px 30px;
     transition-duration: 500ms;
+    border: 1px solid #7F5AF0;
 }
 
 .service__item:hover {
