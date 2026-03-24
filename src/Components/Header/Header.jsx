@@ -18,17 +18,17 @@ const Header = () => {
           </a>
           <ul className="header__list">
             <li className="header__item">
-              <a href="#" className="header__link">
+              <a href="#home" className="header__link">
                 {t("header.home")}
               </a>
             </li>
             <li className="header__item">
-              <a href="#" className="header__link">
+              <a href="#about" className="header__link">
                 {t("header.about")}
               </a>
             </li>
             <li className="header__item">
-              <a href="#" className="header__link">
+              <a href="#service" className="header__link">
                 {t("header.service")}
               </a>
             </li>
@@ -38,12 +38,12 @@ const Header = () => {
               </a>
             </li>
             <li className="header__item">
-              <a href="#" className="header__link">
+              <a href="#blog" className="header__link">
                 {t("header.blog")}
               </a>
             </li>
             <li className="header__item">
-              <a href="#" className="header__btn__link">
+              <a href="#blog" className="header__btn__link">
                 {t("header.contact")}
               </a>
             </li>

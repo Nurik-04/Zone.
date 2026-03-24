@@ -1,0 +1,136 @@
+.subscribe__container {
+    padding: 100px 0;
+    border: 1 solid #FFFFFF;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.subscribe__efect{
+    position: absolute;
+    top: -40px;
+    left: 200px;
+    opacity: 0.8;
+    animation: floatScale 5s infinite ease-in-out;
+}
+.subscribe__nav {
+    max-width: 1170px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    /* Shaffof quti */
+    padding: 60px 20px;
+    border-radius: 34px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
+    box-shadow: 0px 22px 18px 0px #0000000D;
+    border: 1px solid #7F5AF0;
+    transition-duration: 0.5s;
+}
+.subscribe__nav:hover {
+    box-shadow: -1px -2px 20px 1px #7F5AF0;
+    transform: translateY(-10px);
+}
+.subscribe__title {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.subscribe__text {
+    color: #FFFFFF;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.subscribe__form {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe__input {
+    width: 100%;
+    padding: 22px 30px;
+    border-radius: 50px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.subscribe__input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.subscribe__button {
+    position: absolute;
+    right: 10px;
+    padding: 12px 30px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    /* Ko'k-binafsha gradiyent */
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.subscribe__button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.subscribe__btn-icon {
+    font-size: 18px;
+}
+
+/* Telefonlar uchun moslashtirish */
+@media (max-width: 768px) {
+    .subscribe__form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .subscribe__button {
+        position: static;
+        width: 100%;
+        justify-content: center;
+    }
+}
+@keyframes floatScale {
+    0% {
+        transform: translateY(0px) scale(1.1);
+        opacity: 0.5;
+    }
+
+    25% {
+        transform: translateY(-30px) scale(1.2);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: translateY(0px) scale(1.2);
+        opacity: 0.8;
+    }
+
+    75% {
+        transform: translateY(30px) scale(1.2);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateY(0px) scale(1);
+        opacity: 0.5;
+    }
+}

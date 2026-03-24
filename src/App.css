@@ -5,11 +5,13 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "DM Sans", "Roboto", "Arial", sans-serif;
+  scroll-behavior: smooth;
 }
 body{
   background: #111827;
-  overflow-x: hidden;    /*skrollni o'chiradi */
+  overflow-x: hidden; 
   max-width: 100%;
+
 }
 .container{
   margin: 0 auto;

@@ -26,5 +26,21 @@
         "title": "Мы выполняем каждый проект с особой тщательностью, исходя из потребностей клиента",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. Мы стремимся предоставлять лучшие и современные решения для наших клиентов.",
         "readMore": "Читать далее"
+    },
+    "team": {
+        "title": "Познакомьтесь с нашей командой",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Наши профессионалы предоставят вам лучший сервис.",
+        "professions": {
+            "executive": "Исполнительный директор",
+            "designer": "UX/UI ДИЗАЙНЕР",
+            "business": "РАЗВИТИЕ БИЗНЕСА",
+            "marketing": "Руководитель отдела маркетинга"
+        }
+    },
+    "subscribe": {
+        "title": "Подпишитесь, чтобы получать последние новости",
+        "text": "Мы рекомендуем вам подписаться на нашу рассылку. Оставьте свой email ниже, чтобы получать ежедневные обновления о нас.",
+        "placeholder": "Введите ваш адрес электронной почты",
+        "button": "Подписаться"
     }
 }

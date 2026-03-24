@@ -1,17 +1,40 @@
 import React from "react";
+import "./Subscribe.css";
+import { useTranslation } from "react-i18next";
+import { IoSendSharp } from "react-icons/io5"; // Telegram uslubidagi ikonka
+import Efect from '../Images/efects4.png'
 
 const Subscribe = () => {
+  const { t } = useTranslation();
+
   return (
-    <div>
+    <section className="subscribe">
       <div className="container">
-        <nav className="subscribe__container">
-            <div className="subscribe__nav">
-                <h2>Subscribe to get the Latest News</h2>
-                <p>We recommended you to subscribe to our newspaper,drop your email below to get daily update about us</p>
-            </div>
-        </nav>
+        <div className="subscribe__container" id="blog">
+          <img src={Efect} alt="" className="subscribe__efect" />
+          <nav className="subscribe__nav"> 
+            <h2 className="subscribe__title">{t("subscribe.title")}</h2>
+            <p className="subscribe__text">{t("subscribe.text")}</p>
+
+            <form
+              className="subscribe__form"
+              onSubmit={(e) => e.preventDefault()}
+            >
+              <input
+                type="email"
+                placeholder={t("subscribe.placeholder")}
+                className="subscribe__input"
+                required
+              />
+              <button type="submit" className="subscribe__button">
+                <IoSendSharp className="subscribe__btn-icon" />
+                {t("subscribe.button")}
+              </button>
+            </form>
+          </nav>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,7 @@ const Project = () => {
   const { t } = useTranslation(); // 2. t funksiyasini olamiz
 
   return (
-    <div>
+    <section>
       <div className="container">
         <div className="project__container">
           {/* Birinchi blok */}
@@ -39,7 +39,7 @@ const Project = () => {
           </article>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

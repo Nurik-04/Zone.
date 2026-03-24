@@ -18,9 +18,9 @@ const Service = () => {
   const services = [logo1, logo2, logo3, logo4, logo5, logo6];
 
   return (
-    <section>
+    <section  >
       <div className="container">
-        <div className="service__container">
+        <div className="service__container"id="service" >
           {/* 3. Dinamik matnlar */}
           <h2 className="service__title">{t("service.title")}</h2>
           <p className="service__text">{t("service.text")}</p>

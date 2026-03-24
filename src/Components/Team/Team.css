@@ -1,6 +1,5 @@
 .team__container {
     height: 592px;
-    border: 1px solid wheat;
     text-align: center;
     color: #FFFFFF;
     padding: 80px 50px 50px;
@@ -11,6 +10,7 @@
     font-weight: 700;
     font-size: 42px;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 .team__text {
@@ -22,6 +22,7 @@
     text-align: center;
     margin: auto;
     margin-bottom: 40px;
+    letter-spacing: 1px;
 }
 
 .team__list {
@@ -64,6 +65,7 @@
     font-weight: 500;
     font-size: 28px;
     margin-top: -20px;
+    letter-spacing: 1px;
 }
 
 .team__item__text {
@@ -74,6 +76,7 @@
     text-transform: uppercase;
     margin-top: 7px;
     margin-bottom: 11px;
+    letter-spacing: 1px;
 }
 
 .team__icon__box {
@@ -84,10 +87,14 @@
     align-items: center;
     gap: 12px;
     margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    
 }
 
 .team__icon__box svg:hover {
     transform: scale(1.2);
+    transition-duration: 550ms;
     /* Silaichalganda kattalashish effekti */
 }
 

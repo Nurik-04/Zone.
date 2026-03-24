@@ -26,5 +26,21 @@
         "title": "We complete every projects extra care as customer need",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. ",
         "readMore": "Read more"
+    },
+    "team": {
+        "title": "Meet Our Team",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl.",
+        "professions": {
+            "executive": "Executive officer",
+            "designer": "UX/UI DESIGNER",
+            "business": "BUSINESS DEVELOPMENT",
+            "marketing": "Head of marketing"
+        }
+    },
+    "subscribe": {
+        "title": "Subscribe to get the Latest News",
+        "text": "We recommended you to subscribe to our newspaper, drop your email below to get daily update about us",
+        "placeholder": "Enter your email address",
+        "button": "Subscribe"
     }
 }

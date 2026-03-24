@@ -26,5 +26,21 @@
         "title": "Biz har bir loyihani mijoz ehtiyojiga qarab alohida e'tibor bilan bajaramiz",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam poshuerere tortor, sit amet convallis nuncoe scelerisque in. Biz mijozlarimiz uchun eng sifatli va zamonaviy yechimlarni taqdim etishga intilamiz.",
         "readMore": "Batafsil o'qish"
+    },
+    "team": {
+        "title": "Bizning jamoa bilan tanishing",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bizning professionallar sizga eng yaxshi xizmatni taqdim etadi.",
+        "professions": {
+            "executive": "Ijrochi direktor",
+            "designer": "UX/UI DIZAYNER",
+            "business": "BIZNESNI RIVOJLANTIRISH",
+            "marketing": "Marketing bo'limi boshlig'i"
+        }
+    },
+    "subscribe": {
+        "title": "Eng so'nggi yangiliklardan xabardor bo'ling",
+        "text": "Bizning yangiliklarimizga obuna bo'lishni tavsiya qilamiz, kundalik yangiliklarni olish uchun elektron pochtangizni qoldiring",
+        "placeholder": "Email manzilingizni kiriting",
+        "button": "Obuna bo'lish"
     }
 }

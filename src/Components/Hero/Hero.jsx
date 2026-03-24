@@ -19,7 +19,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div>
+    <section id="home">
       <div className="container">
         <div className="hero__container">
           <div className="hero__box">
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
