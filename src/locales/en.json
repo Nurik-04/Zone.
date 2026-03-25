@@ -42,5 +42,36 @@
         "text": "We recommended you to subscribe to our newspaper, drop your email below to get daily update about us",
         "placeholder": "Enter your email address",
         "button": "Subscribe"
+    },
+    "footer": {
+        "address": "Dhaka, Bangladesh",
+        "rights": "All rights reserved.",
+        "privacy": "Privacy",
+        "security": "Security",
+        "terms": "Terms",
+        "titles": {
+            "service": "Service",
+            "company": "Company",
+            "supports": "Supports",
+            "resources": "Resources"
+        },
+        "links": {
+            "order": "Order Management",
+            "social": "Social Assistant",
+            "crypto": "Crypto Platform",
+            "analyzer": "Analyzer of the News",
+            "about": "About Us",
+            "news": "News",
+            "partner": "Our trusted partner",
+            "faq": "New users FAQ",
+            "help": "Help center",
+            "feedback": "Feedback",
+            "contact": "Contact us",
+            "terms_cond": "Terms conditions",
+            "download": "Download app",
+            "blog": "Blog",
+            "whats_new": "What’s new",
+            "sitemap": "Sitemap"
+        }
     }
 }

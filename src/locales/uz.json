@@ -42,5 +42,36 @@
         "text": "Bizning yangiliklarimizga obuna bo'lishni tavsiya qilamiz, kundalik yangiliklarni olish uchun elektron pochtangizni qoldiring",
         "placeholder": "Email manzilingizni kiriting",
         "button": "Obuna bo'lish"
+    },
+    "footer": {
+        "address": "Dakka, Bangladesh",
+        "rights": "Barcha huquqlar himoyalangan.",
+        "privacy": "Maxfiylik",
+        "security": "Xavfsizlik",
+        "terms": "Shartlar",
+        "titles": {
+            "service": "Xizmatlar",
+            "company": "Kompaniya",
+            "supports": "Yordam",
+            "resources": "Resurslar"
+        },
+        "links": {
+            "order": "Buyurtmalarni boshqarish",
+            "social": "Ijtimoiy yordamchi",
+            "crypto": "Kripto platforma",
+            "analyzer": "Yangiliklar tahlili",
+            "about": "Biz haqimizda",
+            "news": "Yangiliklar",
+            "partner": "Ishonchli hamkorlar",
+            "faq": "Yangi foydalanuvchilar FAQ",
+            "help": "Yordam markazi",
+            "feedback": "Fikr-mulohaza",
+            "contact": "Bog'lanish",
+            "terms_cond": "Foydalanish shartlari",
+            "download": "Ilovani yuklab olish",
+            "blog": "Blog",
+            "whats_new": "Yangiliklar",
+            "sitemap": "Sayt xaritasi"
+        }
     }
 }
