@@ -1,97 +1,138 @@
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
-.header__nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px 5px 10px 2px #7F5AF0;
-    padding: 5px 50px;
-    height: 80px;
-    backdrop-filter: blur(8px);
-    border-radius: 7px;
-    
-}
-.header__list{
-    width: 756px;
-    height: 42px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* font-size: 18px; */
-    /* font-family: "DM Sans", sans-serif; */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
-.header__link {
-    position: relative;
-    text-decoration: none;
-    color: #F9FAFB;
-    padding-bottom: 5px;
-    transition: color 0.4s ease;
-    /* transition-duration: 0.5s; */
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 10px 2px #7F5AF0;
+  padding: 5px 50px;
+  height: 80px;
+  backdrop-filter: blur(8px);
+  border-radius: 7px;
 }
 
-/* Chiziqning boshlang'ich holati */
-.header__link::after {
-    content: "";
+/* DEFAULT LIST */
+.header__list {
+  width: 756px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s ease;
+}
+
+/* RESPONSIVE — HIDDEN ON MOBILE */
+@media (max-width: 900px) {
+  .header__list {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px; /* Chiziq qalinligi */
-     /* background-color: #764bf8;   Chiziq rangi (rasmdagi kabi sariq-olovrang) */
-    
-    /* Effektning asosi: chiziqni boshida 0 ga tenglashtiramiz */
-    transform: scaleX(0);
-    transform-origin: bottom right; /* Chiziq o'ngga qarab yo'qoladi */
-    transition: transform 0.3s ease-out;
-    box-shadow: 0px 1px 10px 2px #7F5AF0;
+    top: 80px;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 40px;
+    gap: 20px;
+    background: rgba(0,0,0,0.8);
+    transform: translateX(100%);
+  }
+
+  .header__list.show {
+    transform: translateX(0);
+  }
 }
 
-/* Hover bo'lgandagi holat */
-.header__link:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left; /* Chiziq chapdan chiqib keladi */
-    
-    background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+/* BURGER BTN */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
 }
 
-/* Aktiv bo'lim uchun (Home kabi tagida chiziq doim turishi uchun) */
-.header__link.active::after {
-    transform: scaleX(1);
+.burger span {
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  transition: 0.3s;
 }
-.header__btn__link{
-    width: 152px;
-    height: 42px;
-    border-radius: 8px;
-    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
-    color: #F9FAFB;
-    display: inline-block;
+
+@media (max-width: 900px) {
+  .burger {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition-duration: 0.5s;
+  }
 }
-.header__btn__link:hover {
-    transform: scale(1.1) translateY(-3px);
-}
-.buttons{
-    width:  60px;
-    height: 35px;
-    text-align: center;
-    border-radius: 20%;
-    background: transparent;
-    color: #F9FAFB;
-    border: none;
-    cursor: pointer;
-}
-.lenguage{
-    color: #000;
 
+/* BURGER ANIMATION */
+.burger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
 }
+.burger.open span:nth-child(2) {
+  opacity: 0;
+}
+.burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+/* LINKS */
+.header__link {
+  position: relative;
+  color: #F9FAFB;
+  padding-bottom: 5px;
+  transition: 0.4s;
+}
+
+.header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+  background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+  box-shadow: 0px 1px 10px 2px #7F5AF0;
+}
+
+.header__link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header__btn__link {
+  width: 152px;
+  height: 42px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #2563EB, #D946EF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header__btn__link:hover {
+  transform: scale(1.1) translateY(-3px);
+}
+
+/* LANGUAGE BUTTON */
+.buttons {
+  width: 60px;
+  height: 35px;
+  border-radius: 10px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.lenguage { color: #000 }
